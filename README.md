@@ -1,23 +1,16 @@
 <snippet>
   <content><![CDATA[
-# ${1:Mobile Survey}
-TODO: Write a project description
+# Mobile Survey
+TODO: A simple survey mobile web application. Being developed in order to show the app running on a tablet with it's own local server and database.
 ## Installation
-TODO: Describe the installation process
+TODO: Installation steps will come soo. Will be using a tablet.
 ## Usage
 TODO: Write usage instructions
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
 ## History
 TODO: Write history
+1. Initial Commit - 5/26/2016
 ## Credits
-TODO: Write credits
-## License
-TODO: Write license
+TODO: Coming soon. When explaining usage with mobile apps needed.
 ]]></content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
