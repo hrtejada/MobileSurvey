@@ -5,7 +5,7 @@
  * Date: 5/23/2016
  * Time: 10:48 AM
  */
-if(0) {
+if(1) {
     require 'Config/header.php';
     session_start();
 
