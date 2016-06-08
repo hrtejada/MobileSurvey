@@ -6,6 +6,22 @@
  * Time: 9:37 AM
  */
 
+//Secure http turned off while in development mode
+if(0) {
+// Use HTTP Strict Transport Security to force client to use secure connections only
+    $use_sts = true;
+
+// iis sets HTTPS to 'off' for non-SSL requests
+    if ($use_sts && isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
+        header('Strict-Transport-Security: max-age=31536000');
+    } elseif ($use_sts) {
+        header('Location: https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'], true, 301);
+        // we are in cleartext at the moment, prevent further execution and output
+        die();
+    }
+}
+
+
 //Database connection variables
 $dbhost = "127.0.0.1";
 $dbuser   = "survey";

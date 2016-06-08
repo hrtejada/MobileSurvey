@@ -7,7 +7,7 @@
     <!--Styles-->
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../css/survey.css" rel="stylesheet">
 
     <!-- Hector Tejada Custom CSS -->
     <link href="../css/custom.css" rel="stylesheet">
